@@ -67,7 +67,7 @@ div#formulario > p{
     font-size: 0.8em;
 }
 
-form > div.campo{
+form > div.campo{ /********/
     background-color: #5f2c82;
     border: 2px solid #5f2c82;
     display: block;
@@ -89,7 +89,7 @@ div.campo > span {
     padding: 5px;
 }
 
-div.campo > input{
+div.campo > input{  /* **** */
     background-color: #94cfcd;
     font-size: 1em;
     width: calc(100% - 44.37px) ; /*Para enquadrara largura */
@@ -106,44 +106,45 @@ div.campo > input:focus-within{ /*:focus-within   =>  Ganhar foco, quando estive
 }
 
 form > input[type=submit] { /*Entre cochetes diz que que qualquer coisa que fazer nessa area é referente o botão dentro do [....]*/
-display: block;
-font-size: 1em;
-width: 100%;
-height: 40px;
-background-color: #49a09d;
-color: white;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-}
-
-form > input[type=submit]:hover {
-    background-color: #2d6462;
-}
-
-form > a.botao {
     display: block;
-    text-align: center;
     font-size: 1em;
     width: 100%;
     height: 40px;
-    padding-top: 5px;
-    margin-top: 5px;
-    background-color: white;
-    color: #2d6462;
-    border: 1px solid #49a09d;
-    border-radius: 7px;
-    text-decoration: none;
-}
-
-form > a.botao:hover{
-    background-color: #6cd3cf;
-
-}
-
-form > a.botao > span {
-    font-size: 0.8em;
-}
-
-/*Obs: sempre que ter uma animação pra fazer, coloque como ultima linha*/
-
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    form > input[type=submit]:hover {
+        background-color: #2d6462;
+    }
+    
+    form > a.botao {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 100%;
+        height: 40px;
+        padding-top: 5px;
+        margin-top: 5px;
+        background-color: white;
+        color: #2d6462;
+        border: 1px solid #49a09d;
+        border-radius: 7px;
+        text-decoration: none;
+    }
+    
+    form > a.botao:hover{
+        background-color: #6cd3cf;
+    
+    }
+    
+    form > a.botao > span {
+        font-size: 0.8em;
+    }
+    
+    /*Obs: sempre que ter uma animação pra fazer, coloque como ultima linha*/
+    
+    
