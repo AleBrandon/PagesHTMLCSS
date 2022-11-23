@@ -65,7 +65,7 @@ header > p {
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
     /*Quando colocou a largura de(max-width: 500; automaticamente virou um bloco e deixou de estar centralizado, para centralizar foi necessario adicionar margin: auto;*/
 
@@ -76,6 +76,7 @@ nav{
     background-color: var(--cor5);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+    padding-top: 10px;
 }
 
 nav > a{
